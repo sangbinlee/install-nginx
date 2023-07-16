@@ -245,6 +245,9 @@ sudo systemctl enable nginx
     Jul 16 03:28:25 master systemd[1]: Started Run certbot twice daily.
     root@master:/home/sangbinlee9#
 
+# date
+    root@master:/home/sangbinlee9# date
+    Sun Jul 16 03:38:24 AM UTC 2023
 
 
 ![image](https://github.com/sangbinlee/install-nginx/assets/4024414/769127de-51dd-44cc-ba6e-808a23c28ff1)
