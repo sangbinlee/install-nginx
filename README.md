@@ -336,3 +336,35 @@ sudo systemctl enable nginx
     nginx: configuration file /etc/nginx/nginx.conf test is successful
 
 
+
+
+![image](https://github.com/sangbinlee/install-nginx/assets/4024414/9cbc6347-5f80-4ed9-b7ea-fb82ad1d6ea0)
+
+
+
+
+
+
+
+![image](https://github.com/sangbinlee/install-nginx/assets/4024414/b017c5d7-d451-4655-900a-c810c45ee276)
+
+
+
+![image](https://github.com/sangbinlee/install-nginx/assets/4024414/daa78979-dd80-42cc-a925-cbd4610f7845)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
