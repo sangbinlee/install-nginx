@@ -231,3 +231,29 @@ sudo systemctl enable nginx
      * Donating to EFF:                    https://eff.org/donate-le
     - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
     root@master:/home/sangbinlee9#
+
+
+
+
+
+![image](https://github.com/sangbinlee/install-nginx/assets/4024414/769127de-51dd-44cc-ba6e-808a23c28ff1)
+
+
+
+
+
+
+
+![image](https://github.com/sangbinlee/install-nginx/assets/4024414/f7eae624-cd34-4b32-81d4-85bdd1cf5b42)
+
+![image](https://github.com/sangbinlee/install-nginx/assets/4024414/00943c2d-ddc9-4029-81e1-7ef26b6b8928)
+
+
+![image](https://github.com/sangbinlee/install-nginx/assets/4024414/7fbd8229-e38f-47da-9373-7984ea282421)
+
+
+![image](https://github.com/sangbinlee/install-nginx/assets/4024414/1bc26f98-5a64-4625-80c7-870462c4b1f0)
+
+
+
+
