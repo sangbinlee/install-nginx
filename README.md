@@ -187,3 +187,47 @@ sudo systemctl enable nginx
     
     root@master:/home/sangbinlee9#
 
+
+# sudo certbot --nginx -d 도메인 이름 -d www.도메인 이름 
+    
+    root@master:/home/sangbinlee9# sudo certbot --nginx -d jy6.shop -d www.jy6.shop
+    Saving debug log to /var/log/letsencrypt/letsencrypt.log
+    Enter email address (used for urgent renewal and security notices)
+     (Enter 'c' to cancel):  sangbinlee9@gmail.com
+    
+    - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+    Please read the Terms of Service at
+    https://letsencrypt.org/documents/LE-SA-v1.3-September-21-2022.pdf. You must
+    agree in order to register with the ACME server. Do you agree?
+    - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+    (Y)es/(N)o: Y
+    
+    - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+    Would you be willing, once your first certificate is successfully issued, to
+    share your email address with the Electronic Frontier Foundation, a founding
+    partner of the Let's Encrypt project and the non-profit organization that
+    develops Certbot? We'd like to send you email about our work encrypting the web,
+    EFF news, campaigns, and ways to support digital freedom.
+    - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+    (Y)es/(N)o: Y
+    Account registered.
+    Requesting a certificate for jy6.shop and www.jy6.shop
+    
+    Successfully received certificate.
+    Certificate is saved at: /etc/letsencrypt/live/jy6.shop/fullchain.pem
+    Key is saved at:         /etc/letsencrypt/live/jy6.shop/privkey.pem
+    This certificate expires on 2023-10-14.
+    These files will be updated when the certificate renews.
+    Certbot has set up a scheduled task to automatically renew this certificate in the background.
+    
+    Deploying certificate
+    Successfully deployed certificate for jy6.shop to /etc/nginx/sites-enabled/default
+    Successfully deployed certificate for www.jy6.shop to /etc/nginx/sites-enabled/default
+    Congratulations! You have successfully enabled HTTPS on https://jy6.shop and https://www.jy6.shop
+    
+    - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+    If you like Certbot, please consider supporting our work by:
+     * Donating to ISRG / Let's Encrypt:   https://letsencrypt.org/donate
+     * Donating to EFF:                    https://eff.org/donate-le
+    - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+    root@master:/home/sangbinlee9#
