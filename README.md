@@ -458,5 +458,21 @@ sudo systemctl enable nginx
 
 ![image](https://github.com/sangbinlee/install-nginx/assets/4024414/a452a47f-417c-40d3-8af4-8a5d76f2c087)
 
+![image](https://github.com/sangbinlee/install-nginx/assets/4024414/9024e70f-e565-40ef-95cd-4564fbaf382e)
+
+![image](https://github.com/sangbinlee/install-nginx/assets/4024414/9e669eb0-7c66-466f-a122-1cf2ef46abfc)
+
+![image](https://github.com/sangbinlee/install-nginx/assets/4024414/53274b97-349d-4a55-87d8-6983a7dd5ecc)
+
+![image](https://github.com/sangbinlee/install-nginx/assets/4024414/e62e00e2-ffd1-4502-af3f-4a701c5d0178)
+
+
+![image](https://github.com/sangbinlee/install-nginx/assets/4024414/9662493b-1da8-49c0-bf3b-d4fc792f3d7c)
+
+
+![image](https://github.com/sangbinlee/install-nginx/assets/4024414/2c891a7e-be78-4f73-a2d1-df551b923dcd)
+
+
+
 
 
