@@ -355,6 +355,7 @@ sudo systemctl enable nginx
 
 
 
+![image](https://github.com/sangbinlee/install-nginx/assets/4024414/1a919a69-2972-4979-9900-35589315e876)
 
 
 
