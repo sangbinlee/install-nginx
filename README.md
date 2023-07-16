@@ -233,6 +233,17 @@ sudo systemctl enable nginx
     root@master:/home/sangbinlee9#
 
 
+# systemctl status certbot.timer
+    root@master:/home/sangbinlee9# sudo systemctl status certbot.timer
+    ● certbot.timer - Run certbot twice daily
+         Loaded: loaded (/lib/systemd/system/certbot.timer; enabled; preset: enabled)
+         Active: active (waiting) since Sun 2023-07-16 03:28:25 UTC; 8min ago
+          Until: Sun 2023-07-16 03:28:25 UTC; 8min ago
+        Trigger: Sun 2023-07-16 22:16:28 UTC; 18h left
+       Triggers: ● certbot.service
+    
+    Jul 16 03:28:25 master systemd[1]: Started Run certbot twice daily.
+    root@master:/home/sangbinlee9#
 
 
 
