@@ -140,3 +140,50 @@ sudo systemctl disable nginx
 
 # 서버 시작 시 자동으로 nginx를 실행하고 싶은 경우
 sudo systemctl enable nginx
+
+
+
+
+
+# HTTPS 적용
+## sudo apt install certbot python3-certbot-nginx
+
+    root@master:/home/sangbinlee9# sudo ufw allow 'Nginx Full' # HTTP와 HTTPS 모두 허용
+    sudo ufw delete allow 'Nginx HTTP' # 기존의 HTTP 허용 설정 제거
+    Rule added
+    Rule added (v6)
+    Rule deleted
+    Rule deleted (v6)
+    root@master:/home/sangbinlee9# sudo ufw delete allow 'Nginx HTTPS' # 기존의 HTTP 허용 설정 제거
+    Rule deleted
+    Rule deleted (v6)
+    root@master:/home/sangbinlee9# ufw status
+    Status: active
+    
+    To                         Action      From
+    --                         ------      ----
+    6443/tcp                   ALLOW       Anywhere
+    2379:2380/tcp              ALLOW       Anywhere
+    10250/tcp                  ALLOW       Anywhere
+    10251/tcp                  ALLOW       Anywhere
+    10252/tcp                  ALLOW       Anywhere
+    10259/tcp                  ALLOW       Anywhere
+    10257/tcp                  ALLOW       Anywhere
+    22/tcp                     ALLOW       Anywhere
+    8080/tcp                   ALLOW       Anywhere
+    80/tcp                     ALLOW       Anywhere
+    Nginx Full                 ALLOW       Anywhere
+    6443/tcp (v6)              ALLOW       Anywhere (v6)
+    2379:2380/tcp (v6)         ALLOW       Anywhere (v6)
+    10250/tcp (v6)             ALLOW       Anywhere (v6)
+    10251/tcp (v6)             ALLOW       Anywhere (v6)
+    10252/tcp (v6)             ALLOW       Anywhere (v6)
+    10259/tcp (v6)             ALLOW       Anywhere (v6)
+    10257/tcp (v6)             ALLOW       Anywhere (v6)
+    22/tcp (v6)                ALLOW       Anywhere (v6)
+    8080/tcp (v6)              ALLOW       Anywhere (v6)
+    80/tcp (v6)                ALLOW       Anywhere (v6)
+    Nginx Full (v6)            ALLOW       Anywhere (v6)
+    
+    root@master:/home/sangbinlee9#
+
