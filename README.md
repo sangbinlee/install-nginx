@@ -293,3 +293,11 @@ sudo systemctl enable nginx
 
 
 
+![image](https://github.com/sangbinlee/install-nginx/assets/4024414/4fad14f8-616c-4485-9b83-3520f47de2a3)
+
+
+
+![image](https://github.com/sangbinlee/install-nginx/assets/4024414/e80aefaf-4fc6-491a-bcfa-e7e384e438bd)
+
+
+![image](https://github.com/sangbinlee/install-nginx/assets/4024414/7f6aa286-eba3-4229-b809-c15b9a1d0b63)
