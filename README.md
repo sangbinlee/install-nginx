@@ -454,6 +454,26 @@ sudo systemctl enable nginx
       }
     
     }
+
+
+# nginx -t
+    root@master:/etc/nginx/conf.d# nginx -t
+    nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
+    nginx: configuration file /etc/nginx/nginx.conf test is successful
+
+# systemctl restart nginx
+    root@master:/etc/nginx/conf.d# systemctl restart nginx
+    root@master:/etc/nginx/conf.d# cd /var/log/nginx/
+    root@master:/var/log/nginx# ll
+    total 92
+    drwxr-xr-x  2 root     adm     4096 Jul 16 04:27 ./
+    drwxrwxr-x 14 root     syslog  4096 Jul 16 03:30 ../
+    -rw-r-----  1 www-data adm    27663 Jul 16 05:16 access.log
+    -rw-r-----  1 www-data adm     2250 Jul 16 05:17 error.log
+    -rw-r--r--  1 root     root   44815 Jul 16 05:19 jenkins.access.log
+    -rw-r--r--  1 root     root       0 Jul 16 04:27 jenkins.error.log
+    root@master:/var/log/nginx#
+
     
 
 ![image](https://github.com/sangbinlee/install-nginx/assets/4024414/a452a47f-417c-40d3-8af4-8a5d76f2c087)
