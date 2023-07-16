@@ -250,6 +250,28 @@ sudo systemctl enable nginx
     Sun Jul 16 03:38:24 AM UTC 2023
 
 
+# sudo certbot renew --dry-run
+
+    
+    root@master:/home/sangbinlee9# sudo certbot renew --dry-run
+    Saving debug log to /var/log/letsencrypt/letsencrypt.log
+    
+    - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+    Processing /etc/letsencrypt/renewal/jy6.shop.conf
+    - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+    Account registered.
+    Simulating renewal of an existing certificate for jy6.shop and www.jy6.shop
+    
+    - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+    Congratulations, all simulated renewals succeeded:
+      /etc/letsencrypt/live/jy6.shop/fullchain.pem (success)
+    - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+    root@master:/home/sangbinlee9#
+
+
+
+
+
 ![image](https://github.com/sangbinlee/install-nginx/assets/4024414/769127de-51dd-44cc-ba6e-808a23c28ff1)
 
 
