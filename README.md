@@ -300,4 +300,39 @@ sudo systemctl enable nginx
 ![image](https://github.com/sangbinlee/install-nginx/assets/4024414/e80aefaf-4fc6-491a-bcfa-e7e384e438bd)
 
 
-![image](https://github.com/sangbinlee/install-nginx/assets/4024414/7f6aa286-eba3-4229-b809-c15b9a1d0b63)
+![image](https://github.com/sangbinlee/install-nginx/assets/4024414/7f6aa286-eba3-4229-b809-c15b9a1d0b63)3
+
+
+
+
+# Configuring Nginx as a reverse proxy
+
+
+    
+    root@master:/home/sangbinlee9# systemctl --full status nginx
+    ● nginx.service - A high performance web server and a reverse proxy server
+         Loaded: loaded (/lib/systemd/system/nginx.service; enabled; preset: enabled)
+         Active: active (running) since Sun 2023-07-16 02:25:45 UTC; 1h 30min ago
+           Docs: man:nginx(8)
+       Main PID: 8169 (nginx)
+          Tasks: 5 (limit: 18892)
+         Memory: 8.9M
+            CPU: 595ms
+         CGroup: /system.slice/nginx.service
+                 ├─ 8169 "nginx: master process /usr/sbin/nginx -g daemon on; master_process on;"
+                 ├─12557 "nginx: worker process"
+                 ├─12558 "nginx: worker process"
+                 ├─12559 "nginx: worker process"
+                 └─12560 "nginx: worker process"
+    
+    Jul 16 02:25:45 master systemd[1]: Starting A high performance web server and a reverse proxy server...
+    Jul 16 02:25:45 master systemd[1]: Started A high performance web server and a reverse proxy server.
+    root@master:/home/sangbinlee9#
+
+
+#  nginx -t
+    root@master:/home/sangbinlee9# nginx -t
+    nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
+    nginx: configuration file /etc/nginx/nginx.conf test is successful
+
+
